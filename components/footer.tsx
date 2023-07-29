@@ -103,7 +103,7 @@ export default function Footer() {
           width={50}
           height={10}
           src={'clickweb.svg'}
-          onClick={() => push('www.clickweb.com.br')}
+          onClick={() => push('https://www.clickweb.com.br')}
           alt=""
         />
       </div>

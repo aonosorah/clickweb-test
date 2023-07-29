@@ -8,7 +8,7 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col w-full justify-center items-center">
-      <div className="flex flex-col bg-[#F7F4EB] items-center p-36">
+      <div className="flex flex-col w-full bg-[#F7F4EB] items-center py-36">
         <span className="text-[#9A9A9A] text-lg">COMO FUNCIONA</span>
         <span className="text-5xl font-bold text-[#506849] justify-center">
           Encontre um pretendente
