@@ -1,6 +1,9 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 
 export default function Footer() {
+  const { push } = useRouter();
+
   return (
     <footer>
       <div className="bg-[#556F4D] flex justify-between px-8 pt-12 text-white">
@@ -69,7 +72,7 @@ export default function Footer() {
           Pett Love - Relacionamento | CNPJ: 43.660.696/0001-95{' '}
         </span>
         <img src={'setaUp.svg'} />
-        <img src={'clickweb.svg'} />
+        <img src={'clickweb.svg'} onClick={() => push('www.clickweb.com.br')} />
       </div>
     </footer>
   );
