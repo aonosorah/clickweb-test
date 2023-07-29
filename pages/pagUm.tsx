@@ -23,7 +23,7 @@ export default function HomePage() {
           Comece agora!
         </button>
       </div>
-      <div className="flex flex col items-center justify-center mt-36 w-{500px} gap-10">
+      <div className="flex flex-col flex-wrap items-center justify-center mt-36 w-{500px} gap-10">
         <div className="flex">
           <img src={'pet1.svg'} />
         </div>
@@ -43,7 +43,7 @@ export default function HomePage() {
         </div>
       </div>
       <img src={'vetorUm.svg'} className="h-96" />
-      <div className="flex flex col items-center justify-center gap-10">
+      <div className="flex flex col flex-wrap items-center justify-center gap-10">
         <div className="w-96 ">
           <img src={'lupa.svg'} />
           <span className="text-4xl text-[#506849] font-bold">
@@ -62,7 +62,7 @@ export default function HomePage() {
         </div>
       </div>
       <img src={'vetorDois.svg'} className="h-96" />
-      <div className="flex flex col items-center justify-center gap-10 mb-28">
+      <div className="flex flex col flex-wrap items-center justify-center gap-10 mb-28">
         <div>
           <img src={'pet3.svg'} />
         </div>
