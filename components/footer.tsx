@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-[#556F4D] flex font-normal px-8 pt-12 text-white">
+      <div className="bg-[#556F4D] flex font-normal px-8 pt-12 pb-7 text-sm text-white">
         <span>Política de privacidade</span>
         <img src={'dot.svg'} className="mx-3.5" />
         <span>Termos de uso</span>
