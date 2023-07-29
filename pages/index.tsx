@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import HeaderTop from '../components/header';
 import Footer from '../components/footer';
+import HomePage from './pagUm';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <HeaderTop />
       <section>
         <div>
-          <p>Box lalala</p>
+          <HomePage />
         </div>
       </section>
       <Footer />
