@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "petPhoto1": "/guido.svg",
+    "petName1": "Guido",
+    "petPhoto2": "/abigail.svg",
+    "petName2": "Abigail"
+  },
+  {
+    "id": "2",
+    "petPhoto1": "/pancho.svg",
+    "petName1": "Pancho",
+    "petPhoto2": "/kiwi.svg",
+    "petName2": "Kiwi"
+  },
+  {
+    "id": "3",
+    "petPhoto1": "/bingo.svg",
+    "petName1": "Bingo",
+    "petPhoto2": "/jade.svg",
+    "petName2": "Jade"
+  },
+  {
+    "id": "4",
+    "petPhoto1": "/lennon.svg",
+    "petName1": "Lennon",
+    "petPhoto2": "/jujuba.svg",
+    "petName2": "Jujuba"
+  },
+  {
+    "id": "5",
+    "petPhoto1": "/guido.svg",
+    "petName1": "Alfredo",
+    "petPhoto2": "/abigail.svg",
+    "petName2": "Minnie"
+  },
+  {
+    "id": "6",
+    "petPhoto1": "/lennon.svg",
+    "petName1": "Dongie",
+    "petPhoto2": "/jujuba.svg",
+    "petName2": "Dori"
+  }
+]

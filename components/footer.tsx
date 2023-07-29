@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="bg-[#556F4D] flex justify-between px-8 pt-12 text-white">
+      <div className="bg-[#556F4D] flex justify-between px-8 pt-12 text-white flex-wrap">
         <div>
           <img src={'fulllogo.svg'} className="w-96 h-28" />
           <div className="flex justify-between gap-20 my-10">
