@@ -33,7 +33,8 @@ export default function Footer() {
                 Ajude uma entidade
               </span>
               <span className="flex gap-2 font-bold text-sm">
-                SOS Vida Animal <img src={'seta.svg'} />{' '}
+                SOS Vida Animal{' '}
+                <Image width={15} height={10} src={'seta.svg'} alt="" />{' '}
               </span>
               <span className="text-sm">
                 Banco Itaú: <b>Ag 8804</b> Conta <b>01234-5</b>
