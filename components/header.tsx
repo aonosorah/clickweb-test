@@ -7,10 +7,7 @@ export default function HeaderTop() {
 
   return (
     <>
-      <header
-        className="flex flex-1 w-full p-10 justify-between flex-wrap"
-        id="top"
-      >
+      <header className="flex flex-1 w-full p-10 justify-between" id="top">
         <button
           onClick={() => push('/')}
           className="flex justify-center gap-3 items-center bg-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D]  max-md:w-14 max-md:h-14"
@@ -30,7 +27,7 @@ export default function HeaderTop() {
             width={197}
             height={200}
             src={'petlogo.svg'}
-            className="absolute top-0 w-48 h-52 left-20"
+            className="absolute top-0 w-48 h-52 left-20 max-md:w-{118px} max-md:h-{120}"
             alt=""
           />
         </div>
