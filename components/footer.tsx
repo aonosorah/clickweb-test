@@ -8,8 +8,8 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="bg-[#556F4D] flex justify-between px-8 pt-12 text-white flex-wrap">
-        <div>
+      <div className="bg-[#556F4D] flex justify-between px-8 pt-12 text-white flex-wrap max-md:items-center">
+        <div className="hidden md:block">
           <Image
             width={490}
             height={112}
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <div className="flex flex-col">
+          <div className="flex flex-col max-md:items-center">
             <span className="font-bold mb-1">Receba nossas novidades</span>
             <div className=" flex items-center justify-center bg-white font-bold text-[#556F4D] rounded-full w-96 h-14 p-5">
               {' '}
@@ -61,7 +61,7 @@ export default function Footer() {
               </button>
             </div>
           </div>
-          <div className="flex justify-self-end gap-8 mt-10 ">
+          <div className="flex justify-self-end gap-8 mt-10 mb-12 max-md:items-center">
             <Image
               width={80}
               height={80}
@@ -86,7 +86,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-[#556F4D] flex font-normal px-8 pt-12 pb-7 text-sm text-white">
+      <div className="bg-[#556F4D] flex font-normal px-8 pt-12 pb-7 text-sm text-white hidden md:block">
         <span>Política de privacidade</span>
         <Image width={2} height={2} src={'dot.svg'} className="mx-3.5" alt="" />
         <span>Termos de uso</span>
@@ -95,9 +95,11 @@ export default function Footer() {
         <Image width={2} height={2} src={'dot.svg'} className="mx-3.5" alt="" />
         <span>Política de cancelamento</span>
       </div>
-      <div className=" flex justify-between bg-[#506849] px-8 p-8 text-white">
-        <span className="font-bold">
-          Pett Love - Relacionamento | CNPJ: 43.660.696/0001-95{' '}
+      <div className=" flex justify-between bg-[#506849] px-8 p-8 text-white max-md:flex-col max-md:gap-20 max-md:items-center max-md:justify-center">
+        <span className="font-bold max-md:items-center">
+          Pett Love - Relacionamento{' '}
+          <span className=" hidden md:block"> | </span>{' '}
+          <span className="max-md:block">CNPJ: 43.660.696/0001-95</span>
         </span>
         <Link href={'#top'}>
           <Image width={30} height={17} src={'setaUp.svg'} alt="" />
