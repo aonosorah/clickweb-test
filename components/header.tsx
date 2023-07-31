@@ -11,10 +11,19 @@ export default function HeaderTop() {
         className="flex flex-1 w-full p-10 justify-between flex-wrap"
         id="top"
       >
-        <button className=" flex justify-center gap-3 items-center bg-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D] ">
+        <button
+          onClick={() => push('/')}
+          className="flex justify-center gap-3 items-center bg-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D]  max-md:w-14 max-md:h-14"
+        >
           {' '}
           <Image width={20} height={10} src={'barras.svg'} alt="" />{' '}
-          <Image width={54} height={15} src={'menu.svg'} alt="" />
+          <Image
+            width={54}
+            height={15}
+            src={'menu.svg'}
+            alt=""
+            className=" hidden md:block"
+          />
         </button>
         <div className="relative w-96">
           <Image
@@ -28,10 +37,17 @@ export default function HeaderTop() {
 
         <button
           onClick={() => push('/pettdating')}
-          className=" flex justify-center gap-3 items-center bg-[#546E4D] text-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D] "
+          className="flex justify-center gap-3 items-center bg-[#546E4D] text-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D] max-md:w-14 max-md:h-14 "
         >
           {' '}
-          <Image width={112} height={25} src={'enter.svg'} alt="" />
+          <Image width={15} height={15} src={'enter.svg'} alt="" />
+          <Image
+            width={60}
+            height={15}
+            src={'enterttxt.svg'}
+            alt=""
+            className=" hidden md:block"
+          />
         </button>
       </header>
     </>

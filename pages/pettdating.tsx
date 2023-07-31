@@ -32,6 +32,12 @@ export default function PettDating() {
         <div className="flex flex-wrap gap-10 max-w-[1260px] m-10 justify-center items-center">
           {petList}
         </div>
+        <div className="my-16">
+          <button className=" text-[#546E4D] bg-[#F6C63B] rounded-full font-bold w-72 h-16 ">
+            {' '}
+            Carregar mais antigos
+          </button>
+        </div>
       </div>
       <Footer />
     </div>
