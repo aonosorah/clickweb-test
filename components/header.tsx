@@ -11,7 +11,7 @@ export default function HeaderTop() {
         <button
           onClick={() => push('/')}
           className="flex justify-center gap-3 items-center bg-white w-36 h-10 border 
-          border-solid border-4 rounded-full border-[#546E4D]  max-md:w-16 max-md:h-14"
+          border-solid border-4 rounded-full border-[#546E4D]  max-md:w-16 max-md:h-10"
         >
           {' '}
           <Image width={20} height={10} src={'barras.svg'} alt="" />{' '}
@@ -28,14 +28,14 @@ export default function HeaderTop() {
             width={197}
             height={200}
             src={'petlogo.svg'}
-            className="absolute top-0 w-48 h-52 left-20 max-md:w-{118px} max-md:h-{120} max-md:left-10"
+            className="absolute top-0 w-48 h-52 left-20 max-md:w-{118px} max-md:h-{120} max-md:left-5"
             alt=""
           />
         </div>
 
         <button
           onClick={() => push('/pettdating')}
-          className="flex justify-center gap-3 items-center bg-[#546E4D] text-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D] max-md:w-16 max-md:h-14 "
+          className="flex justify-center gap-3 items-center bg-[#546E4D] text-white w-36 h-10 border border-solid border-4 rounded-full border-[#546E4D] max-md:w-16 max-md:h-10 "
         >
           {' '}
           <Image width={15} height={15} src={'enter.svg'} alt="" />

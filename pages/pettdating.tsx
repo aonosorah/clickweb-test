@@ -12,7 +12,7 @@ export default function PettDating() {
   return (
     <div>
       <HeaderTop />
-      <div className="flex flex-col mt-48 justify-center items-center">
+      <div className="flex flex-col mt-48 justify-center items-center max-md:text-center">
         <span className="text-4xl text-[#556F4D] font-bold">
           <span className="text-4xl text-[#F6C63B] font-bold">Pets</span>{' '}
           Namorando
@@ -27,7 +27,7 @@ export default function PettDating() {
           {petList}
         </div>
         <div className="bg-[#E5E5E5] w-1/3 h-24 flex justify-center items-center mx-96 mt-24">
-          <span className="text-[#9A9A9A]">Publicidade 750x100</span>
+          <span className="text-[#9A9A9A]">Publicidade</span>
         </div>
         <div className="flex flex-wrap gap-10 max-w-[1260px] m-10 justify-center items-center">
           {petList}
