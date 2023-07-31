@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   const { push } = useRouter();
@@ -98,7 +99,9 @@ export default function Footer() {
         <span className="font-bold">
           Pett Love - Relacionamento | CNPJ: 43.660.696/0001-95{' '}
         </span>
-        <Image width={30} height={17} src={'setaUp.svg'} alt="" />
+        <Link href={'#top'}>
+          <Image width={30} height={17} src={'setaUp.svg'} alt="" />
+        </Link>
         <Image
           width={50}
           height={10}
