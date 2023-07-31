@@ -41,7 +41,7 @@ export default function HomePage() {
             <span className="text-4xl text-[#F6C63B] font-bold">animal</span>
           </span>
           <br></br>
-          <span>
+          <span className="px-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             egestas, erat et convallis gravida, nisl libero imperdiet dolor, et
             vestibulum tortor quam in nunc.
@@ -70,7 +70,7 @@ export default function HomePage() {
             pretendentes
           </span>
           <br></br>
-          <span>
+          <span className="px-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             egestas, erat et convallis gravida, nisl libero imperdiet dolor, et
             vestibulum tortor quam in nunc.
@@ -117,7 +117,7 @@ export default function HomePage() {
             <span className="text-4xl text-[#F6C63B] font-bold">encontro</span>
           </span>
           <br></br>
-          <span>
+          <span className="px-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             egestas, erat et convallis gravida, nisl libero imperdiet dolor, et
             vestibulum tortor quam in nunc.
